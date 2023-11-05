@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallel Animations</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+  </head>
+  <body>
+    <!-- Your HTML content here -->
+    <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
+      <img class="image" src="/photo_1.jpg" alt="image1" draggable="false" />
+      <img class="image" src="/photo_9.avif" alt="image2" draggable="false" />
+      <img class="image" src="/photo_10.avif" alt="image1" draggable="false" />
+      <img class="image" src="/photo_4.jpg" alt="image2" draggable="false" />
+      <img class="image" src="/photo_11.avif" alt="image1" draggable="false" />
+      <img class="image" src="/photo_6.jpg" alt="image2" draggable="false" />
+      <img class="image" src="/photo_12.avif" alt="image1" draggable="false" />
+      <img class="image" src="/photo_13.avif" alt="image2" draggable="false" />
+    </div>
+
+    <audio id="background-audio" autoplay loop>
+      <source src="background-music.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
